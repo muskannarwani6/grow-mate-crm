@@ -67,15 +67,11 @@ const Footer = () => {
                         <ul className="space-y-4 text-gray-500">
                             <li className="flex items-start space-x-3">
                                 <MapPin className="text-blue-600 w-5 h-5 shrink-0" />
-                                <span>123 Business Hub, MG Road, Bangalore, India</span>
+                                <span>245 Madison Avenue, Suite 1200, New York, NY 10016, United States</span>
                             </li>
                             <li className="flex items-center space-x-3">
                                 <Phone className="text-blue-600 w-5 h-5 shrink-0" />
-                                <span>+91 800 123 4567</span>
-                            </li>
-                            <li className="flex items-center space-x-3">
-                                <Mail className="text-blue-600 w-5 h-5 shrink-0" />
-                                <span>support@growmate.com</span>
+                                <span>+1 (212) 555-7890</span>
                             </li>
                         </ul>
                         <div className="mt-8">

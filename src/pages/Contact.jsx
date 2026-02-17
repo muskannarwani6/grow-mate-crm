@@ -15,17 +15,6 @@ const Contact = () => {
                         {/* Contact Info */}
                         <div className="lg:col-span-1 space-y-8">
                             <div className="bg-white p-8 rounded-3xl border border-gray-100 shadow-sm flex items-start space-x-6">
-                                <div className="bg-blue-50 p-4 rounded-2xl text-blue-600">
-                                    <Mail size={24} />
-                                </div>
-                                <div>
-                                    <h4 className="font-bold text-gray-900 mb-1">Email us</h4>
-                                    <p className="text-gray-500 mb-2">Our team is here to help.</p>
-                                    <a href="mailto:support@growmate.com" className="text-blue-600 font-bold">support@growmate.com</a>
-                                </div>
-                            </div>
-
-                            <div className="bg-white p-8 rounded-3xl border border-gray-100 shadow-sm flex items-start space-x-6">
                                 <div className="bg-green-50 p-4 rounded-2xl text-green-600">
                                     <MessageSquare size={24} />
                                 </div>
@@ -42,8 +31,8 @@ const Contact = () => {
                                 </div>
                                 <div>
                                     <h4 className="font-bold text-gray-900 mb-1">Call us</h4>
-                                    <p className="text-gray-500 mb-2">Mon-Fri from 9am to 6pm.</p>
-                                    <a href="tel:+918001234567" className="text-purple-600 font-bold">+91 800 123 4567</a>
+                                    <p className="text-gray-500 mb-2">Mon-Fri from 9am to 6pm (EST).</p>
+                                    <a href="tel:+12125557890" className="text-purple-600 font-bold">+1 (212) 555-7890</a>
                                 </div>
                             </div>
                         </div>
@@ -122,7 +111,7 @@ const Contact = () => {
                             <MapPin size={48} className="mx-auto text-blue-600" />
                             <div>
                                 <h4 className="font-extrabold text-2xl text-gray-900">Visit our office</h4>
-                                <p className="text-gray-500">123 Business Hub, MG Road, Bangalore, India</p>
+                                <p className="text-gray-500 text-center px-4">245 Madison Avenue, Suite 1200, New York, NY 10016, United States</p>
                             </div>
                         </div>
                         {/* Artistic overlay */}

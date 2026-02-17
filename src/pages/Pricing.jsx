@@ -9,7 +9,7 @@ const Pricing = () => {
     const plans = [
         {
             name: "Starter",
-            price: isAnnual ? "799" : "999",
+            price: isAnnual ? "99" : "119",
             desc: "For solo founders and freelancers.",
             features: ["1,000 Contacts", "1 Sales Pipeline", "Email Integration", "Mobile App Access", "Basic Analytics"],
             cta: "Start Free Trial",
@@ -17,7 +17,7 @@ const Pricing = () => {
         },
         {
             name: "Professional",
-            price: isAnnual ? "1599" : "1999",
+            price: isAnnual ? "199" : "249",
             desc: "Ideal for fast-growing small teams.",
             features: ["Unlimited Contacts", "5 Sales Pipelines", "WhatsApp Integration", "Automation Workflows", "Team Collaboration", "Custom Reports"],
             cta: "Get Started",
@@ -85,7 +85,7 @@ const Pricing = () => {
                                 <h3 className="text-2xl font-extrabold text-gray-900 mb-2">{plan.name}</h3>
                                 <p className="text-gray-500 mb-8 h-12">{plan.desc}</p>
                                 <div className="mb-8">
-                                    <span className="text-5xl font-extrabold text-gray-900">{plan.price !== "Custom" ? `₹${plan.price}` : "Custom"}</span>
+                                    <span className="text-5xl font-extrabold text-gray-900">{plan.price !== "Custom" ? `$${plan.price}` : "Custom"}</span>
                                     {plan.price !== "Custom" && <span className="text-gray-500">/month</span>}
                                 </div>
                                 <ul className="space-y-4 mb-10">
